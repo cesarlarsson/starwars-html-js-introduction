@@ -26,14 +26,14 @@ connect().use(serveStatic(__dirname)).listen(8080, function(){
 
 6- Dentro de nuestra carpeta creamos un archivo llamado index.html y en el colocamos
 
-<html>
-<head>
-<style> body {padding: 0; margin: 0;} </style>
-</head>
-<body>
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt; body {padding: 0; margin: 0;} &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
 Hola Mundo!
-</body>
-</html>
+&lt;/body&gt;
+&lt;/html&gt;
 
 7- En la terminal en la carpeta colocamos node server.js
 
