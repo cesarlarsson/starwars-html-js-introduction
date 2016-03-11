@@ -1,0 +1,53 @@
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	 	<title>Star Wars</title>
+		<link media="all" type="text/css" rel="stylesheet" href="estilo.css">
+		<script src="programa.js"></script>
+	</head>
+	<body onload="ejecutar()">
+		<header>
+			<h1>Un-Official Web Site</h1>
+			<img src="imagenes/starwars.png" height="300px">
+		</header>
+		<nav>
+			<a href="index.html">Inicio</a> | <a href="trailer.html">Trailer</a>	
+		</nav>
+		<section class="personajes">
+			<h2>Personajes</h2>
+				<div class="personaje">		
+					<h4>Chewbacca</h4>
+					<img src="imagenes/personajes/chewaka.jpg">
+					<button type="button" id="p1">Hablar</button>
+				</div>	
+				<div class="personaje">		
+					<h4>Darth Vader</h4>
+					<img src="imagenes/personajes/darth-vader.jpg">
+					<button type="button" id="p2">Hablar</button>
+				</div>	
+				<div class="personaje">		
+					<h4>Han Solo</h4>
+					<img src="imagenes/personajes/han-solo.jpg">
+					<button type="button" id="p3">Hablar</button>
+				</div>	
+				<div class="personaje">		
+					<h4>R2D2</h4>
+					<img src="imagenes/personajes/r2d2.jpg">
+					<button type="button" id="p4">Hablar</button>
+				</div>
+				<div class="personaje">		
+					<h4>Yoda</h4>
+					<img src="imagenes/personajes/yoda.jpg">
+					<button type="button" id="p5">Hablar</button>
+				</div>	
+		</section>
+
+		<footer>
+			<h4>
+				Copyright Fanatic 2016 
+			</h4><button id="controlsonido">Pausar</button>
+		</footer>
+		<audio src="sonidos/starwars.mp3" autoplay loop id="musica">
+		</audio>
+	</body>
+</html>

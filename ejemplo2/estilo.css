@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    background-image: url("imagenes/bg.gif");
+}
+h1 {
+    margin-left: 20px;
+}
+h2{
+	color: white;
+}
+h4{
+	text-align: center;
+	color: lightblue;
+}
+header{
+	background-position:center;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	overflow: visible;
+}
+.personajes{
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.personaje{
+	max-width: 220px;
+	text-align: center;;
+	background-color: white;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+
+}
+.personaje h4{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.personaje img{
+	margin-bottom: 10px;
+}
+
+.personaje button{
+	background-color: yellow;
+
+}
+
+footer{
+	width: 100%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+}
